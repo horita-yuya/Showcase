@@ -370,3 +370,6 @@ Like here, transforms comformed to `TransformProtocol` can be concated with same
 4. If you create your own path, use `PathProtocol` and design it.
 5. And `TransformProtocol` make view transformed.
 6. Showcase is much customizable for `direction`, `itemSize`, `lineSpacing`, `isPagingEnabled`, `path`, `transform`
+
+## License
+Showcase is released under the MIT License.
