@@ -34,12 +34,6 @@ end
 ### [Carthage](https://github.com/Carthage/Carthage)
 Add the following to your Package.swift:
 ```swift
-let package = Package(
- name: "ProjectName",
- dependencies: [
-  .Package(url: "https://github.com/h-yuya/Showcase.git", majorVersion: 3)
- ]
-)
 ```
 
 ## How to Use
