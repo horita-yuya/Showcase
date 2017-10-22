@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Showcase'
-  s.version          = 'v1.0.0'
+  s.version          = '1.0.0'
   s.summary          = 'Showcase is a UIView based view to display views in the frame, like you display figures in a sheld or showcase'
 
 # This description is used to generate tags and improve search results.
