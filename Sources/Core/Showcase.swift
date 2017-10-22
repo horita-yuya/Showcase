@@ -16,7 +16,7 @@ public class Showcase: UIView {
     fileprivate var pagingOffset: CGFloat = 0
     fileprivate var periodicPoint: CGPoint = .zero
     
-    fileprivate dynamic var scrollView: ExtendedScrollView = .init()
+    @objc fileprivate dynamic var scrollView: ExtendedScrollView = .init()
     fileprivate var isReuseNeeded: Bool = true
     fileprivate var observer: NSKeyValueObservation?
     
@@ -96,7 +96,7 @@ private extension Showcase {
         scrollView = ExtendedScrollView()
         addSubview(scrollView)
         
-        observer = scrollView.observe(\.contentOffset) { [weak self] _ in
+        observer = scrollView.observe(\ExtendedScrollView.contentOffset) { [weak self] _, _ in
             self?.rearrange()
             self?.scrollingHandler?()
         }
