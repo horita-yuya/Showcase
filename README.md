@@ -4,6 +4,7 @@
 <p align="center">
 
 ![SwiftVersion](https://img.shields.io/badge/language-swift3-orange.svg?style=flat)
+![SwiftVersion](https://img.shields.io/badge/language-swift4-orange.svg?style=flat)
 [![Version](https://img.shields.io/cocoapods/v/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
 [![License](https://img.shields.io/cocoapods/l/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
 [![Platform](https://img.shields.io/cocoapods/p/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
@@ -22,8 +23,6 @@ Showcase is a UIView based view to display any views in the frame, like you disp
 ### [CocoaPods](https://cocoapods.org/)
 Add the following to your Podfile:
 ```ruby
-swift_version = '3.2'
-
 use_frameworks!
 
 target 'TargetName' do
