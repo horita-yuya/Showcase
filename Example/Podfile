@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Showcase_Tests' do
+  pod 'Showcase', :path => '../'
+  
+  
+end
