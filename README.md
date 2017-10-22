@@ -22,6 +22,8 @@ Showcase is a UIView based view to display any views in the frame, like you disp
 ### [CocoaPods](https://cocoapods.org/)
 Add the following to your Podfile:
 ```ruby
+swift_version = '3.2'
+
 use_frameworks!
 
 target 'TargetName' do
