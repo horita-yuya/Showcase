@@ -34,6 +34,7 @@ end
 ### [Carthage](https://github.com/Carthage/Carthage)
 Add the following to your Package.swift:
 ```swift
+github "h-yuya/Showcase"
 ```
 
 ## How to Use
