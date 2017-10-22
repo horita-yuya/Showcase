@@ -6,6 +6,7 @@
 ![SwiftVersion](https://img.shields.io/badge/language-swift3-orange.svg?style=flat)
 ![SwiftVersion](https://img.shields.io/badge/language-swift4-orange.svg?style=flat)
 [![Version](https://img.shields.io/cocoapods/v/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
+![Version](https://img.shields.io/badge/Carthage-compatible-yellow.svg?style=flat)
 [![License](https://img.shields.io/cocoapods/l/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
 [![Platform](https://img.shields.io/cocoapods/p/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
 
