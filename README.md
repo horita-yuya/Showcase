@@ -38,6 +38,8 @@ github "h-yuya/Showcase"
 ```
 
 ## How to Use
+Configure UIView in the storyboard and set custom class to `Showcase`
+![storyboard](./Resources/storyboard.png)
 #### First, make a view you want to display and model are needed for configuration of the view  conform to `ReusableView` and `ReusableModel` protocol.
 ```swift
 import UIKit
