@@ -20,7 +20,7 @@ public class Showcase: UIView {
     fileprivate var isReuseNeeded: Bool = true
     fileprivate var observer: NSKeyValueObservation?
     
-    fileprivate var registerdObject: [String: AnyObject] = [:]
+    fileprivate var registeredObject: [String: AnyObject] = [:]
     
     fileprivate var visibleRect: CGRect {
         return .init(x: scrollView.contentOffset.x - scrollView.leftAssist,
@@ -61,12 +61,12 @@ public class Showcase: UIView {
     
     public func register<T: UIView>(byNibName nibName: T.Type) where T: Reusable {
         let identifier = String(describing: nibName.self)
-        registerdObject[identifier] = UINib(nibName: identifier, bundle: nil)
+        registeredObject[identifier] = UINib(nibName: identifier, bundle: nil)
     }
     
     public func register<T: UIView>(byClassName className: T.Type) where T: Reusable {
         let identifier = String(describing: className.self)
-        registerdObject[identifier] = className
+        registeredObject[identifier] = className
     }
     
     public func reset<T: UIView>(_ type: T.Type, models: [T.Model]) where T: ReusableView {
@@ -234,9 +234,9 @@ private extension Showcase {
     
     func dequeueReusableView(_ identifier: String) -> UIView {
         var reuseView: UIView
-        if let nib = registerdObject[identifier] as? UINib, let view = nib.instantiate(withOwner: nil, options: nil).first as? UIView {
+        if let nib = registeredObject[identifier] as? UINib, let view = nib.instantiate(withOwner: nil, options: nil).first as? UIView {
             reuseView = view
-        } else if let type = registerdObject[identifier] as? UIView.Type {
+        } else if let type = registeredObject[identifier] as? UIView.Type {
             reuseView = type.init(frame: frame)
         } else {
             fatalError(" - the identifier does not match with registered identifier, or any identifiers are not registered. Check 'reset' func in your code.")
