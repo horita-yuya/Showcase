@@ -1,0 +1,6 @@
+framework module Showcase {
+  umbrella header "Showcase-umbrella.h"
+
+  export *
+  module * { export * }
+}

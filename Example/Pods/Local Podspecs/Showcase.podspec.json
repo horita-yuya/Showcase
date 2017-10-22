@@ -1,0 +1,22 @@
+{
+  "name": "Showcase",
+  "version": "0.1.0",
+  "summary": "A short description of Showcase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/h-yuya/Showcase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "h-yuya": "horita_yuya@cyberagent.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/h-yuya/Showcase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Showcase/Classes/**/*"
+}

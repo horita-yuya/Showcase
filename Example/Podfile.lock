@@ -1,0 +1,16 @@
+PODS:
+  - Showcase (0.1.0)
+
+DEPENDENCIES:
+  - Showcase (from `../`)
+
+EXTERNAL SOURCES:
+  Showcase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Showcase: 831634375ae098557e671865693f15916aa63514
+
+PODFILE CHECKSUM: 69f207cad2229cb4dffe2724a32565e127e9f3a4
+
+COCOAPODS: 1.2.1
