@@ -3,6 +3,10 @@
 </p>
 <p align="center">
 <a href="https://developer.apple.com/swift"><img alt="Swift3" src="https://img.shields.io/badge/language-swift3-orange.svg?style=flat"/></a>
+[![CI Status](http://img.shields.io/travis/h-yuya/Showcase.svg?style=flat)](https://travis-ci.org/h-yuya/Showcase)
+[![Version](https://img.shields.io/cocoapods/v/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
+[![License](https://img.shields.io/cocoapods/l/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
+[![Platform](https://img.shields.io/cocoapods/p/Showcase.svg?style=flat)](http://cocoapods.org/pods/Showcase)
 
 ## Basic Overview
 Showcase is a UIView based view to display any views in the frame, like you display figures in a shelf or showcase.
