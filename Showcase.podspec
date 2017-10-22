@@ -33,7 +33,7 @@ Layout makes Showcase much customizable. You can create your own path and transf
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Showcase/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'Showcase' => ['Showcase/Assets/*.png']
